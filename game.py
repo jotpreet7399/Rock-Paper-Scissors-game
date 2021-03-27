@@ -4,10 +4,10 @@ from random import randint
 from gameComponents import gameVars, winLose
 
 while gameVars.player_choice is False:
-    print("==================*/ RPS GAME */====================")
+    print("^^^^^^^^^^^^^^^^^^^^^*/ RPS GAME */^^^^^^^^^^^^^^^^^^^^^^")
     print("Computer Lives:", gameVars.computer_lives, "/", gameVars.total_lives)
     print("Player Lives:", gameVars.player_lives, "/", gameVars.total_lives)
-    print("====================================================")
+    print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
     print("Choose your weapon! Or type quit to exit\n") #\n means "new line"
     gameVars.player_choice = input("Choose rock, paper, or scissors: \n")
 
@@ -21,27 +21,27 @@ while gameVars.player_choice is False:
     print("computer chose: " + gameVars.computer_choice)
 
     if gameVars.computer_choice == gameVars.player_choice:
-        print("tie")
+        print("tie ooops!")
     elif gameVars.computer_choice == "rock":
         if gameVars.player_choice == "scissors":
             gameVars.player_lives -= 1
-            print("you lose! player lives:", gameVars.player_lives)
+            print("you lose booooo! player lives:", gameVars.player_lives)
         else:
-            print("you win!")
+            print("you win yeahhh!")
             gameVars.computer_lives -= 1
     elif gameVars.computer_choice == "paper":
         if gameVars.player_choice == "rock":
             gameVars.player_lives -= 1
-            print("you lose! player lives:", gameVars.player_lives)
+            print("you lose booooo! player lives:", gameVars.player_lives)
         else:
-            print("you win!")
+            print("you win yeahhh!")
             gameVars.computer_lives -= 1
     elif gameVars.computer_choice == "scissors":
         if gameVars.player_choice == "paper":
             gameVars.player_lives -= 1
-            print("you lose! player lives:", gameVars.player_lives)
+            print("you lose booooo! player lives:", gameVars.player_lives)
         else:
-            print("you win!")
+            print("you win yeahhh!")
             gameVars.computer_lives -= 1
 
     if gameVars.player_lives == 0:

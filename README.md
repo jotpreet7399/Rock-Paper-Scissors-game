@@ -1,9 +1,9 @@
-# Rock-Paper-Scissors-game
+# Rock Paper Scissors Game!
 
-A virtual version of rock paper scissors! Two players compete by choosing an option and comparing their choices. The game is win, lose, or draw - the loser loses a life. Keep playing until one player has no lives left to live.
+The familiar game of Rock, Paper, Scissors is played like this: at the same time, two players display one of three symbols: a rock, paper, or scissors. A rock beats scissors, scissors beat paper by cutting it, and paper beats rock by covering it. ... Whenever one player wins, the other loses.
 
-## Project Roadmap File 
-[Project roadmap Google Doc link] (https://docs.google.com/document/d/1o7RdmEXGoP-aHnNGJvoI4l0bRjkDcU8zpMMe5thLiBQ/edit?usp=sharing)
+## Project Roadmap File
+[Project roadmap Google Doc link](https://docs.google.com/document/d/1o7RdmEXGoP-aHnNGJvoI4l0bRjkDcU8zpMMe5thLiBQ/edit?usp=sharing)
 
 ## MIT License
 
